@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.punchneedle/punchneedle-ai",
+  "title": "Punchneedle.ai",
+  "description": "Make punch needle patterns from images, browse patterns, estimate yarn, resize and match materials.",
+  "version": "1.0.1",
+  "websiteUrl": "https://punchneedle.ai",
+  "repository": {
+    "url": "https://github.com/pyxlino/punchneedle-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://punchneedle.ai/mcp/icons/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://punchneedle.ai/mcp/icons/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    },
+    {
+      "src": "https://punchneedle.ai/mcp/icons/icon-128.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "128x128"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://punchneedle.ai/api/mcp"
+    }
+  ]
+}
